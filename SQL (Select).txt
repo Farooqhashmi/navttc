@@ -1,0 +1,28 @@
+1- View all employees whose salary is greater than 70k:
+
+SELECT *
+FROM employees
+WHERE salary > 70000;
+
+2- View all female employees:
+
+SELECT *
+FROM employees
+WHERE gender = 'Female';
+
+3- View all male employees:
+
+SELECT *
+FROM employees
+WHERE gender = 'Male';
+
+4- View female staff of faculty department:
+
+SELECT *
+FROM employees
+WHERE gender = 'Female' AND department = 'Faculty';
+
+
+
+
+
